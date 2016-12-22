@@ -109,7 +109,9 @@ jQuery('document').ready(function() {
     jQuery('#quote').html(quotes[number_quote]["phrase"])
     jQuery('#author_and_era').html(author_and_era)
     
-    
+    jQuery('#update').click(function() {
+    location.reload();
+});
     
     
 })
