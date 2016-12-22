@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Настроение</title>
+  <title>Ты сдашь зачет</title>
   <script id="jQuery" type="text/javascript" src="static/js/jquery.min.js"></script>
   <script id="quotes_json" src="static/js/quotes_json.js"></script>
   <link href="static/css/bootstrap.min.css" rel="stylesheet">
@@ -11,7 +11,11 @@
 <body>
     <div class="cont_q">
         <h1><div id="quote"></div></h1>
-        <h2><i id="author_and_era"></i></h2>
+        <details>  
+            <summary class="ans">Ответ</summary>
+            <h2><i id="author_and_era"></i></h2>
+            
+        </details>
         
     </div>
 </body>
