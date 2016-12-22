@@ -1,4 +1,5 @@
 jQuery('document').ready(function() {
+    function writeRandomQuote(){
     quotes = [
       {
         "epoch": "Патристика",
@@ -108,9 +109,10 @@ jQuery('document').ready(function() {
     author_and_era = quotes[number_quote]["signature"] + ", " + quotes[number_quote]["epoch"]
     jQuery('#quote').html(quotes[number_quote]["phrase"])
     jQuery('#author_and_era').html(author_and_era)
-    
+    }
+    writeRandomQuote();
     jQuery('#update').click(function() {
-    history.go(0);
+    writeRandomQuote();
 });
     
     
