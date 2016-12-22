@@ -1,0 +1,20 @@
+body {
+    background: linear-gradient(to bottom left, rgba(165, 56, 119, 0.8), rgba(85, 86, 164, 0.8));
+    width: 100%;
+    height: 100vh;
+   }
+
+.cont_q {
+    position: absolute;
+    top: 35%;
+    margin: auto;
+    min-width: 100%;
+
+    text-align: center;
+}
+
+h1{
+    color: white;
+    #text-shadow: black 1px 0px, black 1px 1px, black 0px 1px, black -1px 1px, black -1px 0px, black -1px -1px, black 0px -1px, black 1px -1px;
+    #font-family: serif;
+}
