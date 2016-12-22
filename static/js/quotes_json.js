@@ -110,7 +110,7 @@ jQuery('document').ready(function() {
     jQuery('#author_and_era').html(author_and_era)
     
     jQuery('#update').click(function() {
-    location.reload();
+    history.go(0);
 });
     
     
