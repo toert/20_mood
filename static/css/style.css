@@ -21,6 +21,9 @@ h1{
 
 .ans {
     font-size: 200%;
+    display: inline-block;
+    border-bottom: 1px dashed #000;
+    cursor: pointer;
     
 }
 pre {
