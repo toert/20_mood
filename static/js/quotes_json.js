@@ -158,12 +158,6 @@ jQuery('document').ready(function() {
       },
           
       {
-        "epoch": "Общий Восток",
-        "phrase": "",
-        "signature": "Конфуций"
-      },
-       
-      {
         "epoch": "Конфуцианство",
         "phrase": "Без Ли рушится государство",
         "signature": "Конфуций"

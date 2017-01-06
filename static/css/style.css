@@ -26,6 +26,10 @@ h1{
     cursor: pointer;
     
 }
+.ans:focus {
+    outline:none;
+    
+}
 pre {
     background: linear-gradient(to bottom left, rgba(165, 56, 119, 0.8), rgba(85, 86, 164, 0.8));
 }
